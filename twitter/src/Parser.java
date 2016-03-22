@@ -34,6 +34,7 @@ public class Parser {
                 System.exit(1);
             }
             fw.write(str.substring(1, str.length() - 1) + "\n");
+            fw.write(line[1].substring(1, line[1].length() - 1) + "\n");
             j++;
 
         }
