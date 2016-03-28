@@ -1,8 +1,9 @@
 from nltk.probability import DictionaryProbDist
-from nltk import NaiveBayesClassifier
+from nltk import NaiveBayesClassifier as nbc
 from nltk import FreqDist, ConditionalFreqDist
 from nltk import BigramAssocMeasures
 from nltk.tokenize import word_tokenize
+from itertools import chain
 
 #train = [('I love this sandwich.', 'pos'),
  #       ('This is an amazing place!', 'pos'),
@@ -36,30 +37,31 @@ for line in f:
     i += 1
 print "done with data set"
 
-all_words = set()
-i = 0
-for passage in train:
-    i += 1
-#    print i
-#    print passage
-    for word in word_tokenize(passage[0]):
-        all_words.add(word.lower())
 
-#all_words = set(word.lower() for passage in train for word in word_tokenize(passage[0]))
-print "done with all_words"
-#t = [({word: (word in word_tokenize(x[0])) for word in all_words}, x[1]) for x in train]
+vocabulary = set(chain(*[word_tokenize(i[0].lower()) for i in train]))
+print "done with data set2"
 
-t = []
+
+
+#feature_set = [({i:(i in word_tokenize(sentence.lower())) for i in vocabulary},tag) for sentence, tag in train]
+
+f2 = []
 i = 0
-for word in all_words:
-    i += 1
+for sentence, tag in train:
     print i
-    print len(all_words)
-    for x in train:
-        m = ({word: (word in word_tokenize(x[0]))}, x[1])
+    print len(train)
+    m = ({i: (i in (word_tokenize(sentence))) for i in vocabulary}, tag)
+    f2.append(m)
 
-print "about to train"
-classifier = NaiveBayesClassifier.train(t)
 
-test_sent_features = {word.lower(): (word in word_tokenize(test_sentence.lower())) for word in all_words}
-print classifier.classify(test_sent_features)
+print feature_set
+print "-----------------------------------------------------"
+print f2
+print "done with data set3"
+classifier = nbc.train(feature_set)
+
+test_sentence = "This is the best band I've ever heard!"
+featurized_test_sentence =  {i:(i in word_tokenize(test_sentence.lower())) for i in vocabulary}
+
+print "test_sent:",test_sentence
+print "tag:",classifier.classify(featurized_test_sentence)
