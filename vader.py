@@ -52,10 +52,6 @@ print "Vader found" + str(neu) + " neutrals"
 print "There are 1285 neutrals"
 print neu/1285
 print "--------------------------------"
-print ""
-print neg
-print neu
-print "-------------"
-print correct
-print incorrect
-print 100*(correct)/(correct+incorrect)
+print "Correct: " + str(correct)
+print "Incorrect: " + str(incorrect)
+print "Accuracy: " + str(100*(correct)/(correct+incorrect))
