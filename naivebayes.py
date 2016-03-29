@@ -29,17 +29,19 @@ for line in f:
         train.append(tup)
     i += 1
 
-print train
+#print train
 sentim_analyzer = SentimentAnalyzer()
 all_words_neg = sentim_analyzer.all_words([mark_negation(doc) for doc in train])
-print all_words_neg
+#print all_words_neg
 unigram_feats = sentim_analyzer.unigram_word_feats(all_words_neg)
-print unigram_feats
+#print unigram_feats
 sentim_analyzer.add_feat_extractor(extract_unigram_feats, unigrams=unigram_feats)
+
 training_set = sentim_analyzer.apply_features(train)
+print training_set
 trainer = NaiveBayesClassifier.train
 classifier = sentim_analyzer.train(trainer, training_set)
 
-f = open('naive_bayes_trained_with_80_percent.pickle', 'wb')
-pickle.dump(classifier, f)
-f.close()
+#f = open('naive_bayes_trained_with_80_percent.pickle', 'wb')
+#pickle.dump(classifier, f)
+#f.close()

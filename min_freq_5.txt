@@ -1,0 +1,22 @@
+creating data set
+Training classifier
+Evaluating NaiveBayesClassifier results...
+Accuracy: 0.609523809524
+F-measure ["negative"
+]: 0.466666666667
+F-measure ["neutral"
+]: 0.515653775322
+F-measure ["positive"
+]: 0.721624850657
+Precision ["negative"
+]: 0.56
+Precision ["neutral"
+]: 0.457516339869
+Precision ["positive"
+]: 0.738386308068
+Recall ["negative"
+]: 0.4
+Recall ["neutral"
+]: 0.590717299578
+Recall ["positive"
+]: 0.705607476636
