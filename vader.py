@@ -17,7 +17,7 @@ POS = 0
 NEG = 1
 NEU = 2
 predictedval = -1
-m = [[0 for x in range(3)] for x in range(3)] 
+m = [[0.0 for x in range(3)] for x in range(3)] 
 
 for line in f:
     if i % 2 == 0:
@@ -96,4 +96,27 @@ FP_neu = m[0][2] + m[1][2]
 TN_neu = m[0][0] + m[0][1] + m[1][0] + m[1][1]
 FN_neu = m[2][0] + m[2][1]
 
+pos_recall = TP_pos/(TP_pos + FN_pos)
+pos_precision = TP_pos/(TP_pos + FP_pos)
+pos_fmeasure = 2*(pos_precision*pos_recall)/(pos_precision+pos_recall)
+print "Pos Precision: " + str(pos_precision)
+print "Pos Recall: " + str(pos_recall)
+print "Pos F-measure: " + str(pos_fmeasure)
 
+print "-----------------------------------------------"
+
+neg_recall= TP_neg/(TP_neg + FN_neg)
+neg_precision = TP_neg/(TP_neg + FP_neg)
+neg_fmeasure = 2*(neg_precision*neg_recall)/(neg_precision+neg_recall)
+print "neg Precision: " + str(neg_precision)
+print "neg Recall: " + str(neg_recall)
+print "neg F-measure: " + str(neg_fmeasure)
+
+print "-----------------------------------------------"
+
+neu_recall= TP_neu/(TP_neu + FN_neu)
+neu_precision = TP_neu/(TP_neu + FP_neu)
+neu_fmeasure = 2*(neu_precision*neu_recall)/(neu_precision+neu_recall)
+print "neu Precision: " + str(neu_precision)
+print "neu Recall: " + str(neu_recall)
+print "neu F-measure: " + str(neu_fmeasure)
