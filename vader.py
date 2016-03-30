@@ -1,15 +1,38 @@
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-import numpy
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm
+from matplotlib.colors import LogNorm
+
 
 #non inclusive. ranges from 0.0 - 0.5 and -0.5 - 0.0
-posrange = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5] 
-negrange = [-0.5, -0.4, -0.3, -0.2, -0.1, 0.0] 
+posrange = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]
+negrange = [-0.5, -0.4, -0.3, -0.2, -0.1, 0.0]
+#posrange = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+#negrange = [-0.9, -0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0.0]
+#posrange = [0.0, 0.1]
+#negrange = [0.0, -0.1]
+
+#negintensities = [[0 for x in range(len(posrange))] for x in range(len(negrange))]
+neuintensities = [[0 for x in range(len(posrange))] for x in range(len(negrange))]
+#negintensities = {}
+negintensities = []
+negintensities.append([])
+negintensities.append([])
+negintensities.append([])
+negintensities.append([])
+negintensities.append([])
+negintensities.append([])
+
+
+
 
 sid = SentimentIntensityAnalyzer()
 
 print "-----------------------------------------------"
-
+index = 0
 for poslimit in posrange:
+
     for neglimit in negrange:
         pos = 0.0
         neg = 0.0
@@ -116,6 +139,12 @@ for poslimit in posrange:
         neg_recall= TP_neg/(TP_neg + FN_neg)
         neg_precision = TP_neg/(TP_neg + FP_neg)
         neg_fmeasure = 2*(neg_precision*neg_recall)/(neg_precision+neg_recall)
+        
+        
+        #negintensities[int(10*poslimit)][int(10*neglimit)] = neg_fmeasure
+        #        negintensities[str(poslimit) + str(neglimit)] = neg_fmeasure
+        negintensities[index].append(neg_fmeasure)
+        
         print "neg Precision: " + str(neg_precision)
         print "neg Recall: " + str(neg_recall)
         print "neg F-measure: " + str(neg_fmeasure)
@@ -125,9 +154,94 @@ for poslimit in posrange:
         neu_recall= TP_neu/(TP_neu + FN_neu)
         neu_precision = TP_neu/(TP_neu + FP_neu)
         neu_fmeasure = 2*(neu_precision*neu_recall)/(neu_precision+neu_recall)
+
+
+#        neuintensities[abs(10*poslimit), abs(10*neglimit)] = neu_fmeasure
+    
         print "neu Precision: " + str(neu_precision)
         print "neu Recall: " + str(neu_recall)
         print "neu F-measure: " + str(neu_fmeasure)
 
         print "-----------------------------------------------"
         f.close()
+    index += 1
+
+'''
+fig, ax = plt.subplots()
+range = negintensities
+print negintensities
+ax.imshow(range, cmap=cm.jet, interpolation='nearest')
+'''
+X = [posrange, posrange, posrange, posrange, posrange, posrange]
+Y = [
+     [negrange[0], negrange[0], negrange[0], negrange[0], negrange[0], negrange[0]],
+     [negrange[1], negrange[1], negrange[1], negrange[1], negrange[1], negrange[1]],
+     [negrange[2], negrange[2], negrange[2], negrange[2], negrange[2], negrange[2]],
+     [negrange[3], negrange[3], negrange[3], negrange[3], negrange[3], negrange[3]],
+     [negrange[4], negrange[4], negrange[4], negrange[4], negrange[4], negrange[4]],
+     [negrange[5], negrange[5], negrange[5], negrange[5], negrange[5], negrange[5]],
+     ]
+
+print X
+print "-----------------"
+print Y
+print "-----------------"
+print negintensities
+print "-----------------"
+print negintensities
+
+fig, ax = plt.subplots()
+
+cax = ax.imshow(negintensities, extent=(np.amin(negrange), np.amax(negrange), np.amin(posrange), np.amax(posrange)),
+           cmap=cm.hot, norm=LogNorm())
+#plt.pcolormesh(X,Y,negintensities)
+cbar = fig.colorbar(cax)
+
+max = -1.0
+min = 999.0
+for list in negintensities:
+    for m in list:
+        if m > max:
+            max = m
+for list in negintensities:
+    for m in list:
+        if m < min:
+            min = m
+
+mn = min
+md = (min + max) / 2
+mx = max
+cbar.set_ticks([mn,md,mx])
+cbar.set_ticklabels([float("{0:.2f}".format(min)),float("{0:.2f}".format(md)),float("{0:.2f}".format(max))])
+
+#cbar.ax.get_yaxis().labelpad = 15
+#cbar.ax.set_ylabel('F-measure', rotation=270)
+
+
+plt.show()
+
+'''
+
+numrows = numcols = len(negrange)
+def format_coord(x, y):
+    col = int(x + 0.1)
+    row = int(y + 0.1)
+    if col >= 0 and col < numcols and row >= 0 and row < numrows:
+        
+        #get z from your data, given x and y
+        z = range[str(row) + str(col)]
+        
+        #this only leaves two decimal points for readability
+        [x,y,z]=map("{0:.2f}".format,[x,y,z])
+        
+        #change return string of x,y and z to whatever you want
+        return 'x='+str(x)+', y='+str(y)+', z='+str(z)+" degrees"
+    else:
+        return 'x=%1.4f, y=%1.4f' % (x, y)
+
+#Set the function as the one used for display
+ax.format_coord = format_coord
+
+plt.show()
+'''
+

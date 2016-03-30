@@ -29,12 +29,14 @@ test_docs = train[3359:]
 
 sentim_analyzer = SentimentAnalyzer()
 all_words_neg = sentim_analyzer.all_words([mark_negation(doc) for doc in train_docs])
-unigram_feats = sentim_analyzer.unigram_word_feats(all_words_neg, min_freq=6)
+unigram_feats = sentim_analyzer.unigram_word_feats(all_words_neg, min_freq=4)
+#print unigram_feats
 sentim_analyzer.add_feat_extractor(extract_unigram_feats, unigrams=unigram_feats)
 
+#print train_docs
 training_set = sentim_analyzer.apply_features(train_docs)
 testing_set = sentim_analyzer.apply_features(test_docs)
-
+#print training_set
 trainer = NaiveBayesClassifier.train
 classifier = sentim_analyzer.train(trainer, training_set)
 for key, value in sorted(sentim_analyzer.evaluate(testing_set).items()):
