@@ -6,10 +6,10 @@ from matplotlib.colors import LogNorm
 
 
 #non inclusive. ranges from 0.0 - 0.5 and -0.5 - 0.0
-posrange = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]
-negrange = [-0.5, -0.4, -0.3, -0.2, -0.1, 0.0]
-#posrange = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-#negrange = [-0.9, -0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0.0]
+#posrange = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5]
+#negrange = [-0.5, -0.4, -0.3, -0.2, -0.1, 0.0]
+posrange = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+negrange = [-0.9, -0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0.0]
 #posrange = [0.0, 0.1]
 #negrange = [0.0, -0.1]
 
@@ -23,7 +23,10 @@ negintensities.append([])
 negintensities.append([])
 negintensities.append([])
 negintensities.append([])
-
+negintensities.append([])
+negintensities.append([])
+negintensities.append([])
+negintensities.append([])
 
 
 
@@ -143,7 +146,6 @@ for poslimit in posrange:
         
         #negintensities[int(10*poslimit)][int(10*neglimit)] = neg_fmeasure
         #        negintensities[str(poslimit) + str(neglimit)] = neg_fmeasure
-        negintensities[index].append(neg_fmeasure)
         
         print "neg Precision: " + str(neg_precision)
         print "neg Recall: " + str(neg_recall)
@@ -161,6 +163,8 @@ for poslimit in posrange:
         print "neu Precision: " + str(neu_precision)
         print "neu Recall: " + str(neu_recall)
         print "neu F-measure: " + str(neu_fmeasure)
+        
+        negintensities[index].append((neg_fmeasure + neu_fmeasure + pos_fmeasure)/3)
 
         print "-----------------------------------------------"
         f.close()
@@ -172,7 +176,7 @@ range = negintensities
 print negintensities
 ax.imshow(range, cmap=cm.jet, interpolation='nearest')
 '''
-X = [posrange, posrange, posrange, posrange, posrange, posrange]
+X = [posrange, posrange, posrange, posrange, posrange, posrange, posrange, posrange, posrange, posrange]
 Y = [
      [negrange[0], negrange[0], negrange[0], negrange[0], negrange[0], negrange[0]],
      [negrange[1], negrange[1], negrange[1], negrange[1], negrange[1], negrange[1]],
@@ -180,6 +184,10 @@ Y = [
      [negrange[3], negrange[3], negrange[3], negrange[3], negrange[3], negrange[3]],
      [negrange[4], negrange[4], negrange[4], negrange[4], negrange[4], negrange[4]],
      [negrange[5], negrange[5], negrange[5], negrange[5], negrange[5], negrange[5]],
+     [negrange[6], negrange[6], negrange[6], negrange[6], negrange[6], negrange[6]],
+     [negrange[7], negrange[7], negrange[7], negrange[7], negrange[7], negrange[7]],
+     [negrange[8], negrange[8], negrange[8], negrange[8], negrange[8], negrange[8]],
+     [negrange[9], negrange[9], negrange[9], negrange[9], negrange[9], negrange[9]],
      ]
 
 print X
@@ -193,7 +201,7 @@ print negintensities
 fig, ax = plt.subplots()
 
 cax = ax.imshow(negintensities, extent=(np.amin(negrange), np.amax(negrange), np.amin(posrange), np.amax(posrange)),
-           cmap=cm.hot, norm=LogNorm())
+           cmap=cm.hot, interpolation='none')
 #plt.pcolormesh(X,Y,negintensities)
 cbar = fig.colorbar(cax)
 
@@ -212,10 +220,13 @@ mn = min
 md = (min + max) / 2
 mx = max
 cbar.set_ticks([mn,md,mx])
-cbar.set_ticklabels([float("{0:.2f}".format(min)),float("{0:.2f}".format(md)),float("{0:.2f}".format(max))])
+cbar.set_ticklabels(["{0:.1f}%".format(100*min),"{0:.1f}%".format(100*md),"{0:.1f}%".format(100*max)])
 
-#cbar.ax.get_yaxis().labelpad = 15
-#cbar.ax.set_ylabel('F-measure', rotation=270)
+cbar.ax.get_yaxis().labelpad = 15
+cbar.ax.set_ylabel('F-measure', rotation=90)
+
+plt.ylabel("Positive threshold")
+plt.xlabel("Negative threshold")
 
 
 plt.show()
