@@ -1,0 +1,1701 @@
+-----------------------------------------------
+Accuracy: 61.3955703739
+Positive limit: 0.0
+Negative limit: -0.9
+
+Pos Precision: 0.716053876957
+Pos Recall: 0.984977466199
+Pos F-measure: 0.829258010118
+
+neg Precision: 0.958762886598
+neg Recall: 0.101417666303
+neg F-measure: 0.183431952663
+
+neu Precision: 0.382287822878
+neu Recall: 0.403112840467
+neu F-measure: 0.392424242424
+F-measure: 0.468371401735
+-----------------------------------------------
+Accuracy: 64.0628721124
+Positive limit: 0.0
+Negative limit: -0.8
+
+Pos Precision: 0.716053876957
+Pos Recall: 0.984977466199
+Pos F-measure: 0.829258010118
+
+neg Precision: 0.954545454545
+neg Recall: 0.229007633588
+neg F-measure: 0.369393139842
+
+neu Precision: 0.416396103896
+neu Recall: 0.399221789883
+neu F-measure: 0.407628128725
+F-measure: 0.535426426228
+-----------------------------------------------
+Accuracy: 66.3253155513
+Positive limit: 0.0
+Negative limit: -0.7
+
+Pos Precision: 0.716053876957
+Pos Recall: 0.984977466199
+Pos F-measure: 0.829258010118
+
+neg Precision: 0.910863509749
+neg Recall: 0.356597600872
+neg F-measure: 0.512539184953
+
+neu Precision: 0.449222323879
+neu Recall: 0.382101167315
+neu F-measure: 0.412952060555
+F-measure: 0.584916418542
+-----------------------------------------------
+Accuracy: 68.3496070493
+Positive limit: 0.0
+Negative limit: -0.6
+
+Pos Precision: 0.716053876957
+Pos Recall: 0.984977466199
+Pos F-measure: 0.829258010118
+
+neg Precision: 0.88
+neg Recall: 0.479825517993
+neg F-measure: 0.621030345801
+
+neu Precision: 0.486344537815
+neu Recall: 0.360311284047
+neu F-measure: 0.413947250782
+F-measure: 0.6214118689
+-----------------------------------------------
+Accuracy: 70.4929745177
+Positive limit: 0.0
+Negative limit: -0.5
+
+Pos Precision: 0.716053876957
+Pos Recall: 0.984977466199
+Pos F-measure: 0.829258010118
+
+neg Precision: 0.840579710145
+neg Recall: 0.632497273719
+neg F-measure: 0.721841941506
+
+neu Precision: 0.541994750656
+neu Recall: 0.32140077821
+neu F-measure: 0.403517342452
+F-measure: 0.651539098025
+-----------------------------------------------
+Accuracy: 72.3029292689
+Positive limit: 0.0
+Negative limit: -0.4
+
+Pos Precision: 0.716053876957
+Pos Recall: 0.984977466199
+Pos F-measure: 0.829258010118
+
+neg Precision: 0.811643835616
+neg Recall: 0.775354416576
+neg F-measure: 0.793084216397
+
+neu Precision: 0.621527777778
+neu Recall: 0.27859922179
+neu F-measure: 0.384739387426
+F-measure: 0.669027204647
+-----------------------------------------------
+Accuracy: 73.0173850917
+Positive limit: 0.0
+Negative limit: -0.3
+
+Pos Precision: 0.716053876957
+Pos Recall: 0.984977466199
+Pos F-measure: 0.829258010118
+
+neg Precision: 0.788577154309
+neg Recall: 0.858233369684
+neg F-measure: 0.821932114883
+
+neu Precision: 0.687224669604
+neu Recall: 0.24280155642
+neu F-measure: 0.358826912018
+F-measure: 0.670005679006
+-----------------------------------------------
+Accuracy: 73.1840914503
+Positive limit: 0.0
+Negative limit: -0.2
+
+Pos Precision: 0.716053876957
+Pos Recall: 0.984977466199
+Pos F-measure: 0.829258010118
+
+neg Precision: 0.757522123894
+neg Recall: 0.933478735005
+neg F-measure: 0.836345872008
+
+neu Precision: 0.776397515528
+neu Recall: 0.194552529183
+neu F-measure: 0.31113876789
+F-measure: 0.658914216672
+-----------------------------------------------
+Accuracy: 73.1126458681
+Positive limit: 0.0
+Negative limit: -0.1
+
+Pos Precision: 0.716053876957
+Pos Recall: 0.984977466199
+Pos F-measure: 0.829258010118
+
+neg Precision: 0.741451209341
+neg Recall: 0.969465648855
+neg F-measure: 0.840264650284
+
+neu Precision: 0.845849802372
+neu Recall: 0.166536964981
+neu F-measure: 0.278283485046
+F-measure: 0.649268715149
+-----------------------------------------------
+Accuracy: 73.0173850917
+Positive limit: 0.0
+Negative limit: 0.0
+
+Pos Precision: 0.716053876957
+Pos Recall: 0.984977466199
+Pos F-measure: 0.829258010118
+
+neg Precision: 0.735584843493
+neg Recall: 0.973827699019
+neg F-measure: 0.838104176443
+
+neu Precision: 0.865546218487
+neu Recall: 0.160311284047
+neu F-measure: 0.270518713066
+F-measure: 0.645960299876
+-----------------------------------------------
+Accuracy: 61.4432007621
+Positive limit: 0.1
+Negative limit: -0.9
+
+Pos Precision: 0.717677136596
+Pos Recall: 0.983975963946
+Pos F-measure: 0.829989440338
+
+neg Precision: 0.958762886598
+neg Recall: 0.101417666303
+neg F-measure: 0.183431952663
+
+neu Precision: 0.382697947214
+neu Recall: 0.406225680934
+neu F-measure: 0.394110985277
+F-measure: 0.469177459426
+-----------------------------------------------
+Accuracy: 64.1105025006
+Positive limit: 0.1
+Negative limit: -0.8
+
+Pos Precision: 0.717677136596
+Pos Recall: 0.983975963946
+Pos F-measure: 0.829989440338
+
+neg Precision: 0.954545454545
+neg Recall: 0.229007633588
+neg F-measure: 0.369393139842
+
+neu Precision: 0.416599516519
+neu Recall: 0.40233463035
+neu F-measure: 0.409342834521
+F-measure: 0.5362418049
+-----------------------------------------------
+Accuracy: 66.3729459395
+Positive limit: 0.1
+Negative limit: -0.7
+
+Pos Precision: 0.717677136596
+Pos Recall: 0.983975963946
+Pos F-measure: 0.829989440338
+
+neg Precision: 0.910863509749
+neg Recall: 0.356597600872
+neg F-measure: 0.512539184953
+
+neu Precision: 0.449183303085
+neu Recall: 0.385214007782
+neu F-measure: 0.414746543779
+F-measure: 0.58575838969
+-----------------------------------------------
+Accuracy: 68.3972374375
+Positive limit: 0.1
+Negative limit: -0.6
+
+Pos Precision: 0.717677136596
+Pos Recall: 0.983975963946
+Pos F-measure: 0.829989440338
+
+neg Precision: 0.88
+neg Recall: 0.479825517993
+neg F-measure: 0.621030345801
+
+neu Precision: 0.485952133195
+neu Recall: 0.363424124514
+neu F-measure: 0.415850400712
+F-measure: 0.622290062284
+-----------------------------------------------
+Accuracy: 70.5406049059
+Positive limit: 0.1
+Negative limit: -0.5
+
+Pos Precision: 0.717677136596
+Pos Recall: 0.983975963946
+Pos F-measure: 0.829989440338
+
+neg Precision: 0.840579710145
+neg Recall: 0.632497273719
+neg F-measure: 0.721841941506
+
+neu Precision: 0.540856031128
+neu Recall: 0.324513618677
+neu F-measure: 0.405642023346
+F-measure: 0.652491135063
+-----------------------------------------------
+Accuracy: 72.3505596571
+Positive limit: 0.1
+Negative limit: -0.4
+
+Pos Precision: 0.717677136596
+Pos Recall: 0.983975963946
+Pos F-measure: 0.829989440338
+
+neg Precision: 0.811643835616
+neg Recall: 0.775354416576
+neg F-measure: 0.793084216397
+
+neu Precision: 0.618803418803
+neu Recall: 0.281712062257
+neu F-measure: 0.387165775401
+F-measure: 0.670079810712
+-----------------------------------------------
+Accuracy: 73.0650154799
+Positive limit: 0.1
+Negative limit: -0.3
+
+Pos Precision: 0.717677136596
+Pos Recall: 0.983975963946
+Pos F-measure: 0.829989440338
+
+neg Precision: 0.788577154309
+neg Recall: 0.858233369684
+neg F-measure: 0.821932114883
+
+neu Precision: 0.682505399568
+neu Recall: 0.245914396887
+neu F-measure: 0.361556064073
+F-measure: 0.671159206431
+-----------------------------------------------
+Accuracy: 73.2317218385
+Positive limit: 0.1
+Negative limit: -0.2
+
+Pos Precision: 0.717677136596
+Pos Recall: 0.983975963946
+Pos F-measure: 0.829989440338
+
+neg Precision: 0.757522123894
+neg Recall: 0.933478735005
+neg F-measure: 0.836345872008
+
+neu Precision: 0.767371601208
+neu Recall: 0.19766536965
+neu F-measure: 0.314356435644
+F-measure: 0.660230582663
+-----------------------------------------------
+Accuracy: 73.1602762563
+Positive limit: 0.1
+Negative limit: -0.1
+
+Pos Precision: 0.717677136596
+Pos Recall: 0.983975963946
+Pos F-measure: 0.829989440338
+
+neg Precision: 0.741451209341
+neg Recall: 0.969465648855
+neg F-measure: 0.840264650284
+
+neu Precision: 0.832061068702
+neu Recall: 0.169649805447
+neu F-measure: 0.281835811248
+F-measure: 0.650696633956
+-----------------------------------------------
+Accuracy: 73.0650154799
+Positive limit: 0.1
+Negative limit: 0.0
+
+Pos Precision: 0.717677136596
+Pos Recall: 0.983975963946
+Pos F-measure: 0.829989440338
+
+neg Precision: 0.735584843493
+neg Recall: 0.973827699019
+neg F-measure: 0.838104176443
+
+neu Precision: 0.85020242915
+neu Recall: 0.163424124514
+neu F-measure: 0.274151436031
+F-measure: 0.647415017604
+-----------------------------------------------
+Accuracy: 61.6575375089
+Positive limit: 0.2
+Negative limit: -0.9
+
+Pos Precision: 0.72408650261
+Pos Recall: 0.972458688032
+Pos F-measure: 0.830091899979
+
+neg Precision: 0.958762886598
+neg Recall: 0.101417666303
+neg F-measure: 0.183431952663
+
+neu Precision: 0.39014084507
+neu Recall: 0.431128404669
+neu F-measure: 0.409611829945
+F-measure: 0.474378560862
+-----------------------------------------------
+Accuracy: 64.3248392474
+Positive limit: 0.2
+Negative limit: -0.8
+
+Pos Precision: 0.72408650261
+Pos Recall: 0.972458688032
+Pos F-measure: 0.830091899979
+
+neg Precision: 0.954545454545
+neg Recall: 0.229007633588
+neg F-measure: 0.369393139842
+
+neu Precision: 0.423284502699
+neu Recall: 0.427237354086
+neu F-measure: 0.425251742835
+F-measure: 0.541578927552
+-----------------------------------------------
+Accuracy: 66.5872826864
+Positive limit: 0.2
+Negative limit: -0.7
+
+Pos Precision: 0.72408650261
+Pos Recall: 0.972458688032
+Pos F-measure: 0.830091899979
+
+neg Precision: 0.910863509749
+neg Recall: 0.356597600872
+neg F-measure: 0.512539184953
+
+neu Precision: 0.455094991364
+neu Recall: 0.410116731518
+neu F-measure: 0.431436758084
+F-measure: 0.591355947672
+-----------------------------------------------
+Accuracy: 68.6115741843
+Positive limit: 0.2
+Negative limit: -0.6
+
+Pos Precision: 0.72408650261
+Pos Recall: 0.972458688032
+Pos F-measure: 0.830091899979
+
+neg Precision: 0.88
+neg Recall: 0.479825517993
+neg F-measure: 0.621030345801
+
+neu Precision: 0.490658800393
+neu Recall: 0.388326848249
+neu F-measure: 0.433536055604
+F-measure: 0.628219433794
+-----------------------------------------------
+Accuracy: 70.7549416528
+Positive limit: 0.2
+Negative limit: -0.5
+
+Pos Precision: 0.72408650261
+Pos Recall: 0.972458688032
+Pos F-measure: 0.830091899979
+
+neg Precision: 0.840579710145
+neg Recall: 0.632497273719
+neg F-measure: 0.721841941506
+
+neu Precision: 0.54292623942
+neu Recall: 0.349416342412
+neu F-measure: 0.425189393939
+F-measure: 0.659041078475
+-----------------------------------------------
+Accuracy: 72.5648964039
+Positive limit: 0.2
+Negative limit: -0.4
+
+Pos Precision: 0.72408650261
+Pos Recall: 0.972458688032
+Pos F-measure: 0.830091899979
+
+neg Precision: 0.811643835616
+neg Recall: 0.775354416576
+neg F-measure: 0.793084216397
+
+neu Precision: 0.614664586583
+neu Recall: 0.306614785992
+neu F-measure: 0.409138110073
+F-measure: 0.677438075483
+-----------------------------------------------
+Accuracy: 73.2793522267
+Positive limit: 0.2
+Negative limit: -0.3
+
+Pos Precision: 0.72408650261
+Pos Recall: 0.972458688032
+Pos F-measure: 0.830091899979
+
+neg Precision: 0.788577154309
+neg Recall: 0.858233369684
+neg F-measure: 0.821932114883
+
+neu Precision: 0.670520231214
+neu Recall: 0.270817120623
+neu F-measure: 0.385809312639
+F-measure: 0.679277775833
+-----------------------------------------------
+Accuracy: 73.4460585854
+Positive limit: 0.2
+Negative limit: -0.2
+
+Pos Precision: 0.72408650261
+Pos Recall: 0.972458688032
+Pos F-measure: 0.830091899979
+
+neg Precision: 0.757522123894
+neg Recall: 0.933478735005
+neg F-measure: 0.836345872008
+
+neu Precision: 0.739018087855
+neu Recall: 0.222568093385
+neu F-measure: 0.342105263158
+F-measure: 0.669514345048
+-----------------------------------------------
+Accuracy: 73.3746130031
+Positive limit: 0.2
+Negative limit: -0.1
+
+Pos Precision: 0.72408650261
+Pos Recall: 0.972458688032
+Pos F-measure: 0.830091899979
+
+neg Precision: 0.741451209341
+neg Recall: 0.969465648855
+neg F-measure: 0.840264650284
+
+neu Precision: 0.786163522013
+neu Recall: 0.194552529183
+neu F-measure: 0.311915159077
+F-measure: 0.660757236446
+-----------------------------------------------
+Accuracy: 73.2793522267
+Positive limit: 0.2
+Negative limit: 0.0
+
+Pos Precision: 0.72408650261
+Pos Recall: 0.972458688032
+Pos F-measure: 0.830091899979
+
+neg Precision: 0.735584843493
+neg Recall: 0.973827699019
+neg F-measure: 0.838104176443
+
+neu Precision: 0.798679867987
+neu Recall: 0.188326848249
+neu F-measure: 0.304785894207
+F-measure: 0.657660656876
+-----------------------------------------------
+Accuracy: 62.5386996904
+Positive limit: 0.3
+Negative limit: -0.9
+
+Pos Precision: 0.742756460454
+Pos Recall: 0.949924887331
+Pos F-measure: 0.833662931224
+
+neg Precision: 0.958762886598
+neg Recall: 0.101417666303
+neg F-measure: 0.183431952663
+
+neu Precision: 0.410852713178
+neu Recall: 0.494941634241
+neu F-measure: 0.448993999294
+F-measure: 0.488696294394
+-----------------------------------------------
+Accuracy: 65.2060014289
+Positive limit: 0.3
+Negative limit: -0.8
+
+Pos Precision: 0.742756460454
+Pos Recall: 0.949924887331
+Pos F-measure: 0.833662931224
+
+neg Precision: 0.954545454545
+neg Recall: 0.229007633588
+neg F-measure: 0.369393139842
+
+neu Precision: 0.442807017544
+neu Recall: 0.491050583658
+neu F-measure: 0.465682656827
+F-measure: 0.556246242631
+-----------------------------------------------
+Accuracy: 67.4684448678
+Positive limit: 0.3
+Negative limit: -0.7
+
+Pos Precision: 0.742756460454
+Pos Recall: 0.949924887331
+Pos F-measure: 0.833662931224
+
+neg Precision: 0.910863509749
+neg Recall: 0.356597600872
+neg F-measure: 0.512539184953
+
+neu Precision: 0.473561430793
+neu Recall: 0.473929961089
+neu F-measure: 0.473745624271
+F-measure: 0.606649246816
+-----------------------------------------------
+Accuracy: 69.4927363658
+Positive limit: 0.3
+Negative limit: -0.6
+
+Pos Precision: 0.742756460454
+Pos Recall: 0.949924887331
+Pos F-measure: 0.833662931224
+
+neg Precision: 0.88
+neg Recall: 0.479825517993
+neg F-measure: 0.621030345801
+
+neu Precision: 0.507423580786
+neu Recall: 0.452140077821
+neu F-measure: 0.478189300412
+F-measure: 0.644294192479
+-----------------------------------------------
+Accuracy: 71.6361038342
+Positive limit: 0.3
+Negative limit: -0.5
+
+Pos Precision: 0.742756460454
+Pos Recall: 0.949924887331
+Pos F-measure: 0.833662931224
+
+neg Precision: 0.840579710145
+neg Recall: 0.632497273719
+neg F-measure: 0.721841941506
+
+neu Precision: 0.556020942408
+neu Recall: 0.413229571984
+neu F-measure: 0.474107142857
+F-measure: 0.676537338529
+-----------------------------------------------
+Accuracy: 73.4460585854
+Positive limit: 0.3
+Negative limit: -0.4
+
+Pos Precision: 0.742756460454
+Pos Recall: 0.949924887331
+Pos F-measure: 0.833662931224
+
+neg Precision: 0.811643835616
+neg Recall: 0.775354416576
+neg F-measure: 0.793084216397
+
+neu Precision: 0.618985695709
+neu Recall: 0.370428015564
+neu F-measure: 0.463485881207
+F-measure: 0.696744342943
+-----------------------------------------------
+Accuracy: 74.1605144082
+Positive limit: 0.3
+Negative limit: -0.3
+
+Pos Precision: 0.742756460454
+Pos Recall: 0.949924887331
+Pos F-measure: 0.833662931224
+
+neg Precision: 0.788577154309
+neg Recall: 0.858233369684
+neg F-measure: 0.821932114883
+
+neu Precision: 0.664605873261
+neu Recall: 0.334630350195
+neu F-measure: 0.445134575569
+F-measure: 0.700243207225
+-----------------------------------------------
+Accuracy: 74.3272207668
+Positive limit: 0.3
+Negative limit: -0.2
+
+Pos Precision: 0.742756460454
+Pos Recall: 0.949924887331
+Pos F-measure: 0.833662931224
+
+neg Precision: 0.757522123894
+neg Recall: 0.933478735005
+neg F-measure: 0.836345872008
+
+neu Precision: 0.714563106796
+neu Recall: 0.286381322957
+neu F-measure: 0.408888888889
+F-measure: 0.692965897374
+-----------------------------------------------
+Accuracy: 74.2557751846
+Positive limit: 0.3
+Negative limit: -0.1
+
+Pos Precision: 0.742756460454
+Pos Recall: 0.949924887331
+Pos F-measure: 0.833662931224
+
+neg Precision: 0.741451209341
+neg Recall: 0.969465648855
+neg F-measure: 0.840264650284
+
+neu Precision: 0.744394618834
+neu Recall: 0.258365758755
+neu F-measure: 0.383593298671
+F-measure: 0.685840293393
+-----------------------------------------------
+Accuracy: 74.1605144082
+Positive limit: 0.3
+Negative limit: 0.0
+
+Pos Precision: 0.742756460454
+Pos Recall: 0.949924887331
+Pos F-measure: 0.833662931224
+
+neg Precision: 0.735584843493
+neg Recall: 0.973827699019
+neg F-measure: 0.838104176443
+
+neu Precision: 0.751740139211
+neu Recall: 0.252140077821
+neu F-measure: 0.377622377622
+F-measure: 0.68312982843
+-----------------------------------------------
+Accuracy: 63.1102643487
+Positive limit: 0.4
+Negative limit: -0.9
+
+Pos Precision: 0.765199161426
+Pos Recall: 0.913870806209
+Pos F-measure: 0.832952989503
+
+neg Precision: 0.958762886598
+neg Recall: 0.101417666303
+neg F-measure: 0.183431952663
+
+neu Precision: 0.42632498544
+neu Recall: 0.569649805447
+neu F-measure: 0.487674883411
+F-measure: 0.501353275192
+-----------------------------------------------
+Accuracy: 65.7775660872
+Positive limit: 0.4
+Negative limit: -0.8
+
+Pos Precision: 0.765199161426
+Pos Recall: 0.913870806209
+Pos F-measure: 0.832952989503
+
+neg Precision: 0.954545454545
+neg Recall: 0.229007633588
+neg F-measure: 0.369393139842
+
+neu Precision: 0.45608531995
+neu Recall: 0.565758754864
+neu F-measure: 0.505036470997
+F-measure: 0.569127533447
+-----------------------------------------------
+Accuracy: 68.0400095261
+Positive limit: 0.4
+Negative limit: -0.7
+
+Pos Precision: 0.765199161426
+Pos Recall: 0.913870806209
+Pos F-measure: 0.832952989503
+
+neg Precision: 0.910863509749
+neg Recall: 0.356597600872
+neg F-measure: 0.512539184953
+
+neu Precision: 0.484536082474
+neu Recall: 0.548638132296
+neu F-measure: 0.514598540146
+F-measure: 0.6200302382
+-----------------------------------------------
+Accuracy: 70.0643010241
+Positive limit: 0.4
+Negative limit: -0.6
+
+Pos Precision: 0.765199161426
+Pos Recall: 0.913870806209
+Pos F-measure: 0.832952989503
+
+neg Precision: 0.88
+neg Recall: 0.479825517993
+neg F-measure: 0.621030345801
+
+neu Precision: 0.515220700152
+neu Recall: 0.526848249027
+neu F-measure: 0.520969603694
+F-measure: 0.658317646332
+-----------------------------------------------
+Accuracy: 72.2076684925
+Positive limit: 0.4
+Negative limit: -0.5
+
+Pos Precision: 0.765199161426
+Pos Recall: 0.913870806209
+Pos F-measure: 0.832952989503
+
+neg Precision: 0.840579710145
+neg Recall: 0.632497273719
+neg F-measure: 0.721841941506
+
+neu Precision: 0.557829181495
+neu Recall: 0.487937743191
+neu F-measure: 0.520547945205
+F-measure: 0.691780958738
+-----------------------------------------------
+Accuracy: 74.0176232436
+Positive limit: 0.4
+Negative limit: -0.4
+
+Pos Precision: 0.765199161426
+Pos Recall: 0.913870806209
+Pos F-measure: 0.832952989503
+
+neg Precision: 0.811643835616
+neg Recall: 0.775354416576
+neg F-measure: 0.793084216397
+
+neu Precision: 0.609808102345
+neu Recall: 0.44513618677
+neu F-measure: 0.514619883041
+F-measure: 0.71355236298
+-----------------------------------------------
+Accuracy: 74.7320790664
+Positive limit: 0.4
+Negative limit: -0.3
+
+Pos Precision: 0.765199161426
+Pos Recall: 0.913870806209
+Pos F-measure: 0.832952989503
+
+neg Precision: 0.788577154309
+neg Recall: 0.858233369684
+neg F-measure: 0.821932114883
+
+neu Precision: 0.644607843137
+neu Recall: 0.409338521401
+neu F-measure: 0.50071394574
+F-measure: 0.718533016708
+-----------------------------------------------
+Accuracy: 74.8987854251
+Positive limit: 0.4
+Negative limit: -0.2
+
+Pos Precision: 0.765199161426
+Pos Recall: 0.913870806209
+Pos F-measure: 0.832952989503
+
+neg Precision: 0.757522123894
+neg Recall: 0.933478735005
+neg F-measure: 0.836345872008
+
+neu Precision: 0.678362573099
+neu Recall: 0.361089494163
+neu F-measure: 0.471305231082
+F-measure: 0.713534697531
+-----------------------------------------------
+Accuracy: 74.8273398428
+Positive limit: 0.4
+Negative limit: -0.1
+
+Pos Precision: 0.765199161426
+Pos Recall: 0.913870806209
+Pos F-measure: 0.832952989503
+
+neg Precision: 0.741451209341
+neg Recall: 0.969465648855
+neg F-measure: 0.840264650284
+
+neu Precision: 0.69593495935
+neu Recall: 0.333073929961
+neu F-measure: 0.450526315789
+F-measure: 0.707914651859
+-----------------------------------------------
+Accuracy: 74.7320790664
+Positive limit: 0.4
+Negative limit: 0.0
+
+Pos Precision: 0.765199161426
+Pos Recall: 0.913870806209
+Pos F-measure: 0.832952989503
+
+neg Precision: 0.735584843493
+neg Recall: 0.973827699019
+neg F-measure: 0.838104176443
+
+neu Precision: 0.7
+neu Recall: 0.326848249027
+neu F-measure: 0.445623342175
+F-measure: 0.705560169374
+-----------------------------------------------
+Accuracy: 61.9671350322
+Positive limit: 0.5
+Negative limit: -0.9
+
+Pos Precision: 0.81737773153
+Pos Recall: 0.78668002003
+Pos F-measure: 0.801735136514
+
+neg Precision: 0.958762886598
+neg Recall: 0.101417666303
+neg F-measure: 0.183431952663
+
+neu Precision: 0.430275229358
+neu Recall: 0.729961089494
+neu F-measure: 0.541414141414
+F-measure: 0.508860410197
+-----------------------------------------------
+Accuracy: 64.6344367707
+Positive limit: 0.5
+Negative limit: -0.8
+
+Pos Precision: 0.81737773153
+Pos Recall: 0.78668002003
+Pos F-measure: 0.801735136514
+
+neg Precision: 0.954545454545
+neg Recall: 0.229007633588
+neg F-measure: 0.369393139842
+
+neu Precision: 0.453573164803
+neu Recall: 0.726070038911
+neu F-measure: 0.558348294434
+F-measure: 0.576492190264
+-----------------------------------------------
+Accuracy: 66.8968802096
+Positive limit: 0.5
+Negative limit: -0.7
+
+Pos Precision: 0.81737773153
+Pos Recall: 0.78668002003
+Pos F-measure: 0.801735136514
+
+neg Precision: 0.910863509749
+neg Recall: 0.356597600872
+neg F-measure: 0.512539184953
+
+neu Precision: 0.474973931178
+neu Recall: 0.708949416342
+neu F-measure: 0.568841710896
+F-measure: 0.627705344121
+-----------------------------------------------
+Accuracy: 68.9211717075
+Positive limit: 0.5
+Negative limit: -0.6
+
+Pos Precision: 0.81737773153
+Pos Recall: 0.78668002003
+Pos F-measure: 0.801735136514
+
+neg Precision: 0.88
+neg Recall: 0.479825517993
+neg F-measure: 0.621030345801
+
+neu Precision: 0.496904895892
+neu Recall: 0.687159533074
+neu F-measure: 0.576747224037
+F-measure: 0.666504235451
+-----------------------------------------------
+Accuracy: 71.064539176
+Positive limit: 0.5
+Negative limit: -0.5
+
+Pos Precision: 0.81737773153
+Pos Recall: 0.78668002003
+Pos F-measure: 0.801735136514
+
+neg Precision: 0.840579710145
+neg Recall: 0.632497273719
+neg F-measure: 0.721841941506
+
+neu Precision: 0.524889729049
+neu Recall: 0.648249027237
+neu F-measure: 0.58008356546
+F-measure: 0.701220214493
+-----------------------------------------------
+Accuracy: 72.8744939271
+Positive limit: 0.5
+Negative limit: -0.4
+
+Pos Precision: 0.81737773153
+Pos Recall: 0.78668002003
+Pos F-measure: 0.801735136514
+
+neg Precision: 0.811643835616
+neg Recall: 0.775354416576
+neg F-measure: 0.793084216397
+
+neu Precision: 0.555317630264
+neu Recall: 0.605447470817
+neu F-measure: 0.57930007446
+F-measure: 0.724706475791
+-----------------------------------------------
+Accuracy: 73.5889497499
+Positive limit: 0.5
+Negative limit: -0.3
+
+Pos Precision: 0.81737773153
+Pos Recall: 0.78668002003
+Pos F-measure: 0.801735136514
+
+neg Precision: 0.788577154309
+neg Recall: 0.858233369684
+neg F-measure: 0.821932114883
+
+neu Precision: 0.572322126661
+neu Recall: 0.569649805447
+neu F-measure: 0.570982839314
+F-measure: 0.731550030237
+-----------------------------------------------
+Accuracy: 73.7556561086
+Positive limit: 0.5
+Negative limit: -0.2
+
+Pos Precision: 0.81737773153
+Pos Recall: 0.78668002003
+Pos F-measure: 0.801735136514
+
+neg Precision: 0.757522123894
+neg Recall: 0.933478735005
+neg F-measure: 0.836345872008
+
+neu Precision: 0.584132519616
+neu Recall: 0.52140077821
+neu F-measure: 0.550986842105
+F-measure: 0.729689283542
+-----------------------------------------------
+Accuracy: 73.6842105263
+Positive limit: 0.5
+Negative limit: -0.1
+
+Pos Precision: 0.81737773153
+Pos Recall: 0.78668002003
+Pos F-measure: 0.801735136514
+
+neg Precision: 0.741451209341
+neg Recall: 0.969465648855
+neg F-measure: 0.840264650284
+
+neu Precision: 0.588126159555
+neu Recall: 0.493385214008
+neu F-measure: 0.53660600931
+F-measure: 0.726201932036
+-----------------------------------------------
+Accuracy: 73.5889497499
+Positive limit: 0.5
+Negative limit: 0.0
+
+Pos Precision: 0.81737773153
+Pos Recall: 0.78668002003
+Pos F-measure: 0.801735136514
+
+neg Precision: 0.735584843493
+neg Recall: 0.973827699019
+neg F-measure: 0.838104176443
+
+neu Precision: 0.588899341486
+neu Recall: 0.487159533074
+neu F-measure: 0.533219761499
+F-measure: 0.724353024819
+-----------------------------------------------
+Accuracy: 58.5615622767
+Positive limit: 0.6
+Negative limit: -0.9
+
+Pos Precision: 0.852748691099
+Pos Recall: 0.652478718077
+Pos F-measure: 0.739290780142
+
+neg Precision: 0.958762886598
+neg Recall: 0.101417666303
+neg F-measure: 0.183431952663
+
+neu Precision: 0.412975912976
+neu Recall: 0.827237354086
+neu F-measure: 0.550919927442
+F-measure: 0.491214220082
+-----------------------------------------------
+Accuracy: 61.2288640152
+Positive limit: 0.6
+Negative limit: -0.8
+
+Pos Precision: 0.852748691099
+Pos Recall: 0.652478718077
+Pos F-measure: 0.739290780142
+
+neg Precision: 0.954545454545
+neg Recall: 0.229007633588
+neg F-measure: 0.369393139842
+
+neu Precision: 0.431660546716
+neu Recall: 0.823346303502
+neu F-measure: 0.566381156317
+F-measure: 0.558355025433
+-----------------------------------------------
+Accuracy: 63.4913074542
+Positive limit: 0.6
+Negative limit: -0.7
+
+Pos Precision: 0.852748691099
+Pos Recall: 0.652478718077
+Pos F-measure: 0.739290780142
+
+neg Precision: 0.910863509749
+neg Recall: 0.356597600872
+neg F-measure: 0.512539184953
+
+neu Precision: 0.448096885813
+neu Recall: 0.806225680934
+neu F-measure: 0.57603558521
+F-measure: 0.609288516768
+-----------------------------------------------
+Accuracy: 65.5155989521
+Positive limit: 0.6
+Negative limit: -0.6
+
+Pos Precision: 0.852748691099
+Pos Recall: 0.652478718077
+Pos F-measure: 0.739290780142
+
+neg Precision: 0.88
+neg Recall: 0.479825517993
+neg F-measure: 0.621030345801
+
+neu Precision: 0.464302164901
+neu Recall: 0.784435797665
+neu F-measure: 0.583333333333
+F-measure: 0.647884819759
+-----------------------------------------------
+Accuracy: 67.6589664206
+Positive limit: 0.6
+Negative limit: -0.5
+
+Pos Precision: 0.852748691099
+Pos Recall: 0.652478718077
+Pos F-measure: 0.739290780142
+
+neg Precision: 0.840579710145
+neg Recall: 0.632497273719
+neg F-measure: 0.721841941506
+
+neu Precision: 0.483594144372
+neu Recall: 0.745525291829
+neu F-measure: 0.586650336803
+F-measure: 0.682594352817
+-----------------------------------------------
+Accuracy: 69.4689211717
+Positive limit: 0.6
+Negative limit: -0.4
+
+Pos Precision: 0.852748691099
+Pos Recall: 0.652478718077
+Pos F-measure: 0.739290780142
+
+neg Precision: 0.811643835616
+neg Recall: 0.775354416576
+neg F-measure: 0.793084216397
+
+neu Precision: 0.503064066852
+neu Recall: 0.702723735409
+neu F-measure: 0.586363636364
+F-measure: 0.706246210968
+-----------------------------------------------
+Accuracy: 70.1833769945
+Positive limit: 0.6
+Negative limit: -0.3
+
+Pos Precision: 0.852748691099
+Pos Recall: 0.652478718077
+Pos F-measure: 0.739290780142
+
+neg Precision: 0.788577154309
+neg Recall: 0.858233369684
+neg F-measure: 0.821932114883
+
+neu Precision: 0.51225343694
+neu Recall: 0.666926070039
+neu F-measure: 0.579445571332
+F-measure: 0.713556155452
+-----------------------------------------------
+Accuracy: 70.3500833532
+Positive limit: 0.6
+Negative limit: -0.2
+
+Pos Precision: 0.852748691099
+Pos Recall: 0.652478718077
+Pos F-measure: 0.739290780142
+
+neg Precision: 0.757522123894
+neg Recall: 0.933478735005
+neg F-measure: 0.836345872008
+
+neu Precision: 0.515898767034
+neu Recall: 0.618677042802
+neu F-measure: 0.562632696391
+F-measure: 0.712756449513
+-----------------------------------------------
+Accuracy: 70.2786377709
+Positive limit: 0.6
+Negative limit: -0.1
+
+Pos Precision: 0.852748691099
+Pos Recall: 0.652478718077
+Pos F-measure: 0.739290780142
+
+neg Precision: 0.741451209341
+neg Recall: 0.969465648855
+neg F-measure: 0.840264650284
+
+neu Precision: 0.515625
+neu Recall: 0.590661478599
+neu F-measure: 0.550598476605
+F-measure: 0.710051302343
+-----------------------------------------------
+Accuracy: 70.1833769945
+Positive limit: 0.6
+Negative limit: 0.0
+
+Pos Precision: 0.852748691099
+Pos Recall: 0.652478718077
+Pos F-measure: 0.739290780142
+
+neg Precision: 0.735584843493
+neg Recall: 0.973827699019
+neg F-measure: 0.838104176443
+
+neu Precision: 0.51544269046
+neu Recall: 0.584435797665
+neu F-measure: 0.547775346462
+F-measure: 0.708390101016
+-----------------------------------------------
+Accuracy: 53.3698499643
+Positive limit: 0.7
+Negative limit: -0.9
+
+Pos Precision: 0.889592760181
+Pos Recall: 0.492238357536
+Pos F-measure: 0.633784655061
+
+neg Precision: 0.958762886598
+neg Recall: 0.101417666303
+neg F-measure: 0.183431952663
+
+neu Precision: 0.388722055389
+neu Recall: 0.906614785992
+neu F-measure: 0.544138253153
+F-measure: 0.453784953626
+-----------------------------------------------
+Accuracy: 56.0371517028
+Positive limit: 0.7
+Negative limit: -0.8
+
+Pos Precision: 0.889592760181
+Pos Recall: 0.492238357536
+Pos F-measure: 0.633784655061
+
+neg Precision: 0.954545454545
+neg Recall: 0.229007633588
+neg F-measure: 0.369393139842
+
+neu Precision: 0.403618649965
+neu Recall: 0.902723735409
+neu F-measure: 0.557826400577
+F-measure: 0.520334731827
+-----------------------------------------------
+Accuracy: 58.2995951417
+Positive limit: 0.7
+Negative limit: -0.7
+
+Pos Precision: 0.889592760181
+Pos Recall: 0.492238357536
+Pos F-measure: 0.633784655061
+
+neg Precision: 0.910863509749
+neg Recall: 0.356597600872
+neg F-measure: 0.512539184953
+
+neu Precision: 0.416087751371
+neu Recall: 0.88560311284
+neu F-measure: 0.566169154229
+F-measure: 0.570830998081
+-----------------------------------------------
+Accuracy: 60.3238866397
+Positive limit: 0.7
+Negative limit: -0.6
+
+Pos Precision: 0.889592760181
+Pos Recall: 0.492238357536
+Pos F-measure: 0.633784655061
+
+neg Precision: 0.88
+neg Recall: 0.479825517993
+neg F-measure: 0.621030345801
+
+neu Precision: 0.427910562837
+neu Recall: 0.863813229572
+neu F-measure: 0.572312451663
+F-measure: 0.609042484175
+-----------------------------------------------
+Accuracy: 62.4672541081
+Positive limit: 0.7
+Negative limit: -0.5
+
+Pos Precision: 0.889592760181
+Pos Recall: 0.492238357536
+Pos F-measure: 0.633784655061
+
+neg Precision: 0.840579710145
+neg Recall: 0.632497273719
+neg F-measure: 0.721841941506
+
+neu Precision: 0.440931780366
+neu Recall: 0.824902723735
+neu F-measure: 0.574681485497
+F-measure: 0.643436027355
+-----------------------------------------------
+Accuracy: 64.2772088593
+Positive limit: 0.7
+Negative limit: -0.4
+
+Pos Precision: 0.889592760181
+Pos Recall: 0.492238357536
+Pos F-measure: 0.633784655061
+
+neg Precision: 0.811643835616
+neg Recall: 0.775354416576
+neg F-measure: 0.793084216397
+
+neu Precision: 0.45311091073
+neu Recall: 0.782101167315
+neu F-measure: 0.573793890951
+F-measure: 0.66688758747
+-----------------------------------------------
+Accuracy: 64.9916646821
+Positive limit: 0.7
+Negative limit: -0.3
+
+Pos Precision: 0.889592760181
+Pos Recall: 0.492238357536
+Pos F-measure: 0.633784655061
+
+neg Precision: 0.788577154309
+neg Recall: 0.858233369684
+neg F-measure: 0.821932114883
+
+neu Precision: 0.457538167939
+neu Recall: 0.746303501946
+neu F-measure: 0.567287784679
+F-measure: 0.674334851541
+-----------------------------------------------
+Accuracy: 65.1583710407
+Positive limit: 0.7
+Negative limit: -0.2
+
+Pos Precision: 0.889592760181
+Pos Recall: 0.492238357536
+Pos F-measure: 0.633784655061
+
+neg Precision: 0.757522123894
+neg Recall: 0.933478735005
+neg F-measure: 0.836345872008
+
+neu Precision: 0.456720977597
+neu Recall: 0.698054474708
+neu F-measure: 0.55216989843
+F-measure: 0.674100141833
+-----------------------------------------------
+Accuracy: 65.0869254584
+Positive limit: 0.7
+Negative limit: -0.1
+
+Pos Precision: 0.889592760181
+Pos Recall: 0.492238357536
+Pos F-measure: 0.633784655061
+
+neg Precision: 0.741451209341
+neg Recall: 0.969465648855
+neg F-measure: 0.840264650284
+
+neu Precision: 0.454353562005
+neu Recall: 0.670038910506
+neu F-measure: 0.541509433962
+F-measure: 0.671852913102
+-----------------------------------------------
+Accuracy: 64.9916646821
+Positive limit: 0.7
+Negative limit: 0.0
+
+Pos Precision: 0.889592760181
+Pos Recall: 0.492238357536
+Pos F-measure: 0.633784655061
+
+neg Precision: 0.735584843493
+neg Recall: 0.973827699019
+neg F-measure: 0.838104176443
+
+neu Precision: 0.453723404255
+neu Recall: 0.663813229572
+neu F-measure: 0.539020537125
+F-measure: 0.670303122876
+-----------------------------------------------
+Accuracy: 46.8206715885
+Positive limit: 0.8
+Negative limit: -0.9
+
+Pos Precision: 0.929824561404
+Pos Recall: 0.318477716575
+Pos F-measure: 0.474449832152
+
+neg Precision: 0.958762886598
+neg Recall: 0.101417666303
+neg F-measure: 0.183431952663
+
+neu Precision: 0.361907548274
+neu Recall: 0.962645914397
+neu F-measure: 0.526047203912
+F-measure: 0.394642996242
+-----------------------------------------------
+Accuracy: 49.487973327
+Positive limit: 0.8
+Negative limit: -0.8
+
+Pos Precision: 0.929824561404
+Pos Recall: 0.318477716575
+Pos F-measure: 0.474449832152
+
+neg Precision: 0.954545454545
+neg Recall: 0.229007633588
+neg F-measure: 0.369393139842
+
+neu Precision: 0.373899848255
+neu Recall: 0.958754863813
+neu F-measure: 0.537991266376
+F-measure: 0.46061141279
+-----------------------------------------------
+Accuracy: 51.7504167659
+Positive limit: 0.8
+Negative limit: -0.7
+
+Pos Precision: 0.929824561404
+Pos Recall: 0.318477716575
+Pos F-measure: 0.474449832152
+
+neg Precision: 0.910863509749
+neg Recall: 0.356597600872
+neg F-measure: 0.512539184953
+
+neu Precision: 0.383396704689
+neu Recall: 0.941634241245
+neu F-measure: 0.544922314794
+F-measure: 0.510637110633
+-----------------------------------------------
+Accuracy: 53.7747082639
+Positive limit: 0.8
+Negative limit: -0.6
+
+Pos Precision: 0.929824561404
+Pos Recall: 0.318477716575
+Pos F-measure: 0.474449832152
+
+neg Precision: 0.88
+neg Recall: 0.479825517993
+neg F-measure: 0.621030345801
+
+neu Precision: 0.392039800995
+neu Recall: 0.919844357977
+neu F-measure: 0.54976744186
+F-measure: 0.548415873271
+-----------------------------------------------
+Accuracy: 55.9180757323
+Positive limit: 0.8
+Negative limit: -0.5
+
+Pos Precision: 0.929824561404
+Pos Recall: 0.318477716575
+Pos F-measure: 0.474449832152
+
+neg Precision: 0.840579710145
+neg Recall: 0.632497273719
+neg F-measure: 0.721841941506
+
+neu Precision: 0.400707964602
+neu Recall: 0.88093385214
+neu F-measure: 0.550851581509
+F-measure: 0.582381118389
+-----------------------------------------------
+Accuracy: 57.7280304834
+Positive limit: 0.8
+Negative limit: -0.4
+
+Pos Precision: 0.929824561404
+Pos Recall: 0.318477716575
+Pos F-measure: 0.474449832152
+
+neg Precision: 0.811643835616
+neg Recall: 0.775354416576
+neg F-measure: 0.793084216397
+
+neu Precision: 0.408109132247
+neu Recall: 0.83813229572
+neu F-measure: 0.548929663609
+F-measure: 0.605487904053
+-----------------------------------------------
+Accuracy: 58.4424863063
+Positive limit: 0.8
+Negative limit: -0.3
+
+Pos Precision: 0.929824561404
+Pos Recall: 0.318477716575
+Pos F-measure: 0.474449832152
+
+neg Precision: 0.788577154309
+neg Recall: 0.858233369684
+neg F-measure: 0.821932114883
+
+neu Precision: 0.40961462058
+neu Recall: 0.80233463035
+neu F-measure: 0.542346133614
+F-measure: 0.612909360216
+-----------------------------------------------
+Accuracy: 58.6091926649
+Positive limit: 0.8
+Negative limit: -0.2
+
+Pos Precision: 0.929824561404
+Pos Recall: 0.318477716575
+Pos F-measure: 0.474449832152
+
+neg Precision: 0.757522123894
+neg Recall: 0.933478735005
+neg F-measure: 0.836345872008
+
+neu Precision: 0.406289308176
+neu Recall: 0.754085603113
+neu F-measure: 0.528065395095
+F-measure: 0.612953699752
+-----------------------------------------------
+Accuracy: 58.5377470826
+Positive limit: 0.8
+Negative limit: -0.1
+
+Pos Precision: 0.929824561404
+Pos Recall: 0.318477716575
+Pos F-measure: 0.474449832152
+
+neg Precision: 0.741451209341
+neg Recall: 0.969465648855
+neg F-measure: 0.840264650284
+
+neu Precision: 0.402849740933
+neu Recall: 0.726070038911
+neu F-measure: 0.518189391836
+F-measure: 0.61096795809
+-----------------------------------------------
+Accuracy: 58.4424863063
+Positive limit: 0.8
+Negative limit: 0.0
+
+Pos Precision: 0.929824561404
+Pos Recall: 0.318477716575
+Pos F-measure: 0.474449832152
+
+neg Precision: 0.735584843493
+neg Recall: 0.973827699019
+neg F-measure: 0.838104176443
+
+neu Precision: 0.401999130813
+neu Recall: 0.719844357977
+neu F-measure: 0.515895147797
+F-measure: 0.609483052131
+-----------------------------------------------
+Accuracy: 38.4615384615
+Positive limit: 0.9
+Negative limit: -0.9
+
+Pos Precision: 0.968503937008
+Pos Recall: 0.123184777166
+Pos F-measure: 0.218569524656
+
+neg Precision: 0.958762886598
+neg Recall: 0.101417666303
+neg F-measure: 0.183431952663
+
+neu Precision: 0.331600831601
+neu Recall: 0.992996108949
+neu F-measure: 0.497175141243
+F-measure: 0.29972553952
+-----------------------------------------------
+Accuracy: 41.1288402
+Positive limit: 0.9
+Negative limit: -0.8
+
+Pos Precision: 0.968503937008
+Pos Recall: 0.123184777166
+Pos F-measure: 0.218569524656
+
+neg Precision: 0.954545454545
+neg Recall: 0.229007633588
+neg F-measure: 0.369393139842
+
+neu Precision: 0.341208053691
+neu Recall: 0.989105058366
+neu F-measure: 0.507385229541
+F-measure: 0.365115964679
+-----------------------------------------------
+Accuracy: 43.391283639
+Positive limit: 0.9
+Negative limit: -0.7
+
+Pos Precision: 0.968503937008
+Pos Recall: 0.123184777166
+Pos F-measure: 0.218569524656
+
+neg Precision: 0.910863509749
+neg Recall: 0.356597600872
+neg F-measure: 0.512539184953
+
+neu Precision: 0.348298940323
+neu Recall: 0.971984435798
+neu F-measure: 0.512831040854
+F-measure: 0.414646583488
+-----------------------------------------------
+Accuracy: 45.4155751369
+Positive limit: 0.9
+Negative limit: -0.6
+
+Pos Precision: 0.968503937008
+Pos Recall: 0.123184777166
+Pos F-measure: 0.218569524656
+
+neg Precision: 0.88
+neg Recall: 0.479825517993
+neg F-measure: 0.621030345801
+
+neu Precision: 0.35442670537
+neu Recall: 0.950194552529
+neu F-measure: 0.516279069767
+F-measure: 0.451959646741
+-----------------------------------------------
+Accuracy: 47.5589426054
+Positive limit: 0.9
+Negative limit: -0.5
+
+Pos Precision: 0.968503937008
+Pos Recall: 0.123184777166
+Pos F-measure: 0.218569524656
+
+neg Precision: 0.840579710145
+neg Recall: 0.632497273719
+neg F-measure: 0.721841941506
+
+neu Precision: 0.35975422427
+neu Recall: 0.911284046693
+neu F-measure: 0.515859030837
+F-measure: 0.485423499
+-----------------------------------------------
+Accuracy: 49.3688973565
+Positive limit: 0.9
+Negative limit: -0.4
+
+Pos Precision: 0.968503937008
+Pos Recall: 0.123184777166
+Pos F-measure: 0.218569524656
+
+neg Precision: 0.811643835616
+neg Recall: 0.775354416576
+neg F-measure: 0.793084216397
+
+neu Precision: 0.363636363636
+neu Recall: 0.868482490272
+neu F-measure: 0.512632062471
+F-measure: 0.508095267841
+-----------------------------------------------
+Accuracy: 50.0833531793
+Positive limit: 0.9
+Negative limit: -0.3
+
+Pos Precision: 0.968503937008
+Pos Recall: 0.123184777166
+Pos F-measure: 0.218569524656
+
+neg Precision: 0.788577154309
+neg Recall: 0.858233369684
+neg F-measure: 0.821932114883
+
+neu Precision: 0.363081099423
+neu Recall: 0.832684824903
+neu F-measure: 0.505671077505
+F-measure: 0.515390905681
+-----------------------------------------------
+Accuracy: 50.250059538
+Positive limit: 0.9
+Negative limit: -0.2
+
+Pos Precision: 0.968503937008
+Pos Recall: 0.123184777166
+Pos F-measure: 0.218569524656
+
+neg Precision: 0.757522123894
+neg Recall: 0.933478735005
+neg F-measure: 0.836345872008
+
+neu Precision: 0.358081705151
+neu Recall: 0.784435797665
+neu F-measure: 0.491707317073
+F-measure: 0.515540904579
+-----------------------------------------------
+Accuracy: 50.1786139557
+Positive limit: 0.9
+Negative limit: -0.1
+
+Pos Precision: 0.968503937008
+Pos Recall: 0.123184777166
+Pos F-measure: 0.218569524656
+
+neg Precision: 0.741451209341
+neg Recall: 0.969465648855
+neg F-measure: 0.840264650284
+
+neu Precision: 0.353969410051
+neu Recall: 0.756420233463
+neu F-measure: 0.482262465889
+F-measure: 0.513698880276
+-----------------------------------------------
+Accuracy: 50.0833531793
+Positive limit: 0.9
+Negative limit: 0.0
+
+Pos Precision: 0.968503937008
+Pos Recall: 0.123184777166
+Pos F-measure: 0.218569524656
+
+neg Precision: 0.735584843493
+neg Recall: 0.973827699019
+neg F-measure: 0.838104176443
+
+neu Precision: 0.352984254852
+neu Recall: 0.750194552529
+neu F-measure: 0.480079681275
+F-measure: 0.512251127458
+-----------------------------------------------

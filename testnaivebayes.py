@@ -9,7 +9,7 @@ from nltk.sentiment import SentimentAnalyzer
 from nltk.sentiment.util import *
 
 train = []
-f = open("twitter/tweets_GroundTruth-parsed.txt")
+f = open("twitter/tweets_GroundTruth-parsed-noemoticons.txt")
 print "creating data set"
 i = 0
 s1 = ""
@@ -29,7 +29,7 @@ test_docs = train[3359:]
 
 sentim_analyzer = SentimentAnalyzer()
 all_words_neg = sentim_analyzer.all_words([mark_negation(doc) for doc in train_docs])
-unigram_feats = sentim_analyzer.unigram_word_feats(all_words_neg, min_freq=4)
+unigram_feats = sentim_analyzer.unigram_word_feats(all_words_neg, min_freq=1)
 #print unigram_feats
 sentim_analyzer.add_feat_extractor(extract_unigram_feats, unigrams=unigram_feats)
 

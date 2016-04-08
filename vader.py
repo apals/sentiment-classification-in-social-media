@@ -51,7 +51,7 @@ for poslimit in posrange:
         NEU = 2
         predictedval = -1
         m = [[0.0 for x in range(3)] for x in range(3)]
-        f = open("twitter/tweets_GroundTruth-parsed.txt", "r")
+        f = open("twitter/tweets_GroundTruth-parsed-noemoticons.txt", "r")
 
 
         for line in f:
@@ -106,6 +106,8 @@ for poslimit in posrange:
             print "Correct: " + str(correct)
             print "Incorrect: " + str(incorrect)
             '''
+
+        accuracy = (correct)/(correct+incorrect)
         print "Accuracy: " + str(100*(correct)/(correct+incorrect))
         print "Positive limit: " + str(poslimit)
         print "Negative limit: " + str(neglimit)
@@ -163,8 +165,9 @@ for poslimit in posrange:
         print "neu Precision: " + str(neu_precision)
         print "neu Recall: " + str(neu_recall)
         print "neu F-measure: " + str(neu_fmeasure)
-        
+        print "F-measure: " + str((neg_fmeasure + neu_fmeasure + pos_fmeasure)/3) 
         negintensities[index].append((neg_fmeasure + neu_fmeasure + pos_fmeasure)/3)
+        #negintensities[index].append(accuracy)
 
         print "-----------------------------------------------"
         f.close()
@@ -190,18 +193,11 @@ Y = [
      [negrange[9], negrange[9], negrange[9], negrange[9], negrange[9], negrange[9]],
      ]
 
-print X
-print "-----------------"
-print Y
-print "-----------------"
-print negintensities
-print "-----------------"
-print negintensities
 
 fig, ax = plt.subplots()
 
 cax = ax.imshow(negintensities, extent=(np.amin(negrange), np.amax(negrange), np.amin(posrange), np.amax(posrange)),
-           cmap=cm.hot, interpolation='none')
+           cmap=cm.pink, interpolation='none')
 #plt.pcolormesh(X,Y,negintensities)
 cbar = fig.colorbar(cax)
 
