@@ -18,7 +18,7 @@ train = []
 
 
 #f = open("twitter/lol.txt", "r")
-f = open("twitter/tweets_GroundTruth-parsed.txt")
+f = open("twitter/tweets_GroundTruth-parsed-noemoticons.txt")
 print "creating data set"
 i = 0
 s1 = ""
@@ -51,7 +51,7 @@ for top_nn in top_ns:
     trainer = MaxentClassifier.train
     classifierme = sentim_analyzer.train(trainer, training_set)
 
-    f = open('results/maxent/maxent_top_n_' + str(top_nn) + '_min_freq_' + str(min_freqq) + '.txt', 'w')
+    f = open('results/maxent/noemoticons/maxent_top_n_' + str(top_nn) + '_min_freq_' + str(min_freqq) + '-noemoticons.txt', 'w')
     for key, value in sorted(sentim_analyzer.evaluate(testing_set, classifier=classifierme).items()):
         print('{0}: {1}'.format(key, value))
         f.write('{0}: {1}'.format(key, value))

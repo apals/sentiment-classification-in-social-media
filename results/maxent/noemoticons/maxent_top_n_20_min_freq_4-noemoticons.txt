@@ -1,0 +1,10 @@
+Accuracy: 0.517857142857F-measure ["negative"
+]: 0.329411764706F-measure ["neutral"
+]: 0.405727923628F-measure ["positive"
+]: 0.638436482085Precision ["negative"
+]: 0.339393939394Precision ["neutral"
+]: 0.467032967033Precision ["positive"
+]: 0.596348884381Recall ["negative"
+]: 0.32Recall ["neutral"
+]: 0.35864978903Recall ["positive"
+]: 0.68691588785
